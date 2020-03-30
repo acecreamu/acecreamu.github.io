@@ -1,10 +1,10 @@
 var sr = ScrollReveal({
 	origin   : "bottom",
-	distance : "0px",
-	duration : 0,
+	distance : "60px",
+	duration : 880,
 	delay    : 0,
 	scale    : 1
 });
 
-sr.reveal('.projects-list a');
-sr.reveal('.posts-list a');
+//sr.reveal('.projects-list a');
+//sr.reveal('.posts-list a');

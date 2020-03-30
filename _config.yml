@@ -6,12 +6,13 @@ keywords: "Oleksii Sidorov, acecreamu, Oleksii, Sidorov, homepage"
 email: "acecreamu@gmail.com"
 linkedin: "https://www.linkedin.com/in/sidorovoleksii/"
 inst: "https://instagram.com/acecreamu/"
-github: "https://github.com/acecreamu/"
+#github: "https://github.com/acecreamu/"
 youtube: "https://www.youtube.com/channel/UC_prGQM-ProitVD5uEZ4z7A"
+gscholar: "https://scholar.google.no/citations?hl=en&user=kh8Qe6YAAAAJ"
 
 
 # Site config
-baseurl: "/hello"
+baseurl: ""
 highlighter: rouge
 sass:
   sass_dir: assets/scss

@@ -1,7 +1,7 @@
 var sr = ScrollReveal({
 	origin   : "bottom",
 	distance : "0px",
-	duration : 800,
+	duration : 0,
 	delay    : 0,
 	scale    : 1
 });

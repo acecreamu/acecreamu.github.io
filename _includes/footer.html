@@ -7,7 +7,9 @@
 		<section class="follow">
 			<h2>Links</h2>
 			<ul>
-				<li><a title="Projects" href="covid.html" target="_blank">Projects</a></li>
+				{% for item in site.categories.dashboards reversed %}
+				<li><a title="Projects" href="{{ item.url | prepend: site.baseurl }}" target="_blank">Projects</a></li>
+				{% endfor %}
 				<li><a title="CV" href="assets/CV.pdf" target="_blank">CV</a></li>
 				<li><a title="Blog" href="" target="_blank">Blog</a></li>
 			</ul>

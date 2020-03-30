@@ -1,7 +1,7 @@
 ---
 layout: covid
 permalink: /:title/
-category: projects
+category: dashboards
 
 meta:
   keywords: "Jekyll, Pineapple"

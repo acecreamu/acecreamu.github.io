@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Oleksii Sidorov. About me</title>
+	<meta name="author" content="{{ site.author }}">
+	<meta name="description" content="About me.">
+	<meta name="keywords" content="Oleksii, Sidorov, acecreamu">
+	{% include head.html %}
+</head>
+<body>
+	{% include header.html %}
+	<main class="content">
+		<section class="project">
+			<div class="container">
+				<article>
+					<span class="h2">Project Title</span>
+					<h1>
+						<a href="" target="_blank" title="" rel="nofollow">About me</a>
+					</h1>
+					<span class="h2">Role</span>
+					<p>Pineapples are delicious tropical fruit. There are more than a hundred varieties of pineapples that grow in varying sizes. The plant is indigenous to South America and is said to originate from the area between southern Brazil and Paraguay.</p>
+				</article>
+				<aside>
+					<ul>
+						<li>
+							<img src="/assets/images/projects/redpineapple/devices.jpg" alt="" />
+						</li>
+            <li>
+							<img src="/assets/images/projects/redpineapple/desktop.jpg" alt="" />
+						</li>
+            <li>
+							<img src="/assets/images/projects/redpineapple/mobile.jpg" alt="" />
+						</li>
+					</ul>
+				</aside>
+			</div>
+		</section>
+	</main>
+	{% include footer.html %}
+	<script src="{{ "/assets/scripts/vendor/jquery-1.12.4.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/scripts/vendor/scrollreveal.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/scripts/vendor/sticky-kit.min.js" | prepend: site.baseurl }}"></script>
+	<script src="{{ "/assets/scripts/project.js" | prepend: site.baseurl }}"></script>
+</body>
+</html>
